@@ -1,57 +1,190 @@
-
-p   { 
-    color: rgb(170, 50, 50);
-} 
-*   {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: black;
+* {
+    box-sizing:border-box;
+  }
+  body {
+    color: whitesmoke;
+    font-family: Arial;
+    padding: 31px;
+    background: #ffffff;
+  }
+/* Header/Blog Title */
+.header {
+  padding: 500px;
+  text-align: center;
+  color: white;
 }
-
+ div{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration-style: solid;
+    background-color:rgb(97, 57, 5);
+}
+div.a {
+    font-size: 360%;
+  }
+/* columns */
 li, a, button {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: aliceblue;
-    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(184, 94, 15);
+    text-transform: uppercase;
+    font-style: italic;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+    display: contents;
+    justify-content: space-around;
+    align-items:baseline;
+    padding: 5px;
 }
 
-.logo {
-    cursor: pointer;
-}
-
-.nav__links {
-    list-style: none;
-}
-
-.nav__Links li {
+.nav__links li {
     display: inline-block;
-    padding:0px 20px;
+    padding: 0.8px 36px;
+}
+ul {
+    list-style-type: none;
+    margin: 48px;
+    padding:26px;
+    overflow:hidden;
+    background-color: #f8cc99;
+    color: rgb(66, 59, 88);
+    
+  }
+  ul.b {
+    list-style-type: square;
+  }
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    padding: 10px;
+  }  
+  #container {
+    text-align: right;
+  }
+  
+  .text {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+  }
+  
 
+.site-content{
+  color: rgb(0, 0, 0);
+  grid-area: span;
+  background-color: rgb(0, 0, 0); 
+  
 }
 
-.nav__Links li a:hover {
-    color: blue;
+p.a {
+  font-size: 40px;
+  background-color:#f0ca9e;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  
+}
+p.b {
+  text-align: center;
+  color: #ffffff;
+  text-rendering: geometricPrecision;
+  background-color: #f0ca9e
+
+}
+p.c {
+  font-size: 20px;
+  background-color:#d29ef0;
+  color: rgb(0, 0, 0);
+  text-decoration:  rgb(144, 200, 226) wavy underline;;
+}
+.card {
+  background-color: #f0ca9e;
+  padding: 31px;
+  margin-top: 25px;
+}
+.rightcolumn {
+  float: left;
+  width: 35%;
+  background-color: #f1f1f1;
+  padding-left: 200px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: right;
+  width: 69.33%;
+  padding: 68px;
+  background-color: #3a2b1a;
+}
+.site-section{
+  padding: 1
 }
 
-button {
-   padding: 9px 25px;
-   background-color: cornflowerblue;
-   border: none;
-   border-radius: 50px;
-   cursor: pointer;
-   transition: all 0.3s ease 0s;
+/* Create one  equal column that floats next to each other */
+.column {
+  box-shadow: 0 4px 8px 0 rgb(255, 221, 170);
+  float: center;
+  width: 72.33%;
+  padding: 15px;
+  float: left;
+}
+/* Main Content */
+* {
+  box-sizing:border-box;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+div {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration-style: solid;
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 0%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
 }
 
-button:hover {
-    background-color: darkgoldenrod;
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+
+}
+div {
+  display: block;
+}
+body {
+  color: whitesmoke;
+  font-family: Arial;
+  padding: 31px;
+}
+.column2 {
+  float: left;
 }
 
