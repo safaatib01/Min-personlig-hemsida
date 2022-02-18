@@ -1,29 +1,17 @@
-* {
-    box-sizing:border-box;
-  }
-  body {
-    color: whitesmoke;
-    font-family: Arial;
-    padding: 31px;
-    background: #ffffff;
-  }
 /* Header/Blog Title */
-.header {
-  padding: 500px;
-  text-align: center;
-  color: white;
+#a {
+  text-indent: -850px;
+  text-shadow:7px 5px 8px rgb(207, 190, 165) ;
+  font-size: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  color: #ffffff;
 }
- div{
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-    text-decoration-style: solid;
-    background-color:rgb(97, 57, 5);
+div#a {
+  font-size: 260%;
 }
-div.a {
-    font-size: 360%;
-  }
+
 /* columns */
-li, a, button {
+li, d, button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     font-size: 12px;
